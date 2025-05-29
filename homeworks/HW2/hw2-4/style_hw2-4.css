@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex div{
+    width: 200px;
+    height: 200px;
+    background-color: #fff2c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rubik{
+    font-family: "Rubik Pixels", system-ui;
+}
+.sedgwick{
+    font-family: "Sedgwick Ave Display", cursive;
+}
+.dancing{
+    font-family: "Dancing Script", cursive;
+}
+.fjalla{
+    font-family: "Fjalla One", sans-serif;
+}
+.indie{
+    font-family: "Indie Flower", cursive;
+}
