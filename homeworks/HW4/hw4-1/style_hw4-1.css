@@ -10,21 +10,21 @@ main{
     display: flex;
 }
 aside{
-    height: 56vh;
     width: 27vw;
+    height: 56vh;
     background: #C0BDBD;
 }
 section{
-    height: 56vh;
     width: 46vw;
+    height: 56vh;
 }
 .top-div{
-    height: 26vh;
     width: 46vw;
+    height: 26vh;
     background: #827878;
 }
 .bottom-div{
-    height: 30vh;
     width: 46vw;
+    height: 30vh;
     background: #B7ADAD;
 }
