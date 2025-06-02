@@ -1,0 +1,31 @@
+.flex{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin: 200px auto 0 auto;
+}
+.flex div{
+    width: 100px;
+    height: 100px;
+    background: darkblue;
+    animation: blue_circle 3s linear infinite alternate;
+}
+@keyframes blue_circle {
+    from { transform: rotate(0);
+           background: darkblue;
+           border-radius: 0;
+    }
+    50% { transform: rotate(90deg);
+        background: #5454D4;
+        border-radius: 50%;
+    }
+    to {
+        transform: rotate(180deg);
+        background: aqua;
+        border-radius: 0;
+    }
+}
