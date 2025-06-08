@@ -10,7 +10,8 @@
     /*grid-template-columns: 1fr 1fr 1fr;*/
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 2fr 1fr;
-    gap: 50px;
+    /*gap: 50px;*/
+    grid-column-gap: 50px;
 }
 .wrapper div:nth-child(4){
     background-color: #173f34;
