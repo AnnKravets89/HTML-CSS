@@ -5,7 +5,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 2fr 1.3fr;
-    grid-template-rows: 0.3fr 3fr 2.4fr 0.5fr 0.5fr;
+    grid-template-rows: 0.3fr 3fr 2.4fr 0.45fr 0.55fr;
     grid-template-areas:
     "header header"
     "main aside-top"
