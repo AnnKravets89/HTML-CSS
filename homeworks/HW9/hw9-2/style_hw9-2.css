@@ -5,7 +5,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 20% 30% 30% 20%;
+    grid-template-rows: 20% 27% 33% 20%;
     grid-template-areas:
     "header header header"
     "left-aside top-section right-aside"
